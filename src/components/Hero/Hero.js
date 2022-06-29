@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
@@ -9,11 +10,14 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Hey, I'm <br /> 
+          Paulo Felipe  
+          Brito
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          Learning new Technologies and new methods
+          of solving problems and sharing it became my
+          daily life. 
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
